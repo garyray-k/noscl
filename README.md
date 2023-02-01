@@ -1,5 +1,4 @@
-noscl
-=====
+# noscl
 
 Command line client for [Nostr](https://github.com/fiatjaf/nostr).
 
@@ -23,6 +22,7 @@ Usage:
   noscl follow <key> [--name=<name>]
   noscl unfollow <key>
   noscl event <id>
+  noscl setprivate <hex private key>
   noscl share-contacts
   noscl key-gen
   noscl relay
